@@ -25,6 +25,9 @@ pipeline:
           runtime:
             type: Docker
             spec: {}
+        when:
+          pipelineStatus: All
+        description: ""
   properties:
     ci:
       codebase:
