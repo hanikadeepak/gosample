@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hanikadeepak_gosample_1728567354515-pr-trigger-input-set
+  identifier: Build_hanikadeepak_gosample_1728567354515prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hanikadeepak_gosample_1728567354515
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
