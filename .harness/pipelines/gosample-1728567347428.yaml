@@ -20,10 +20,10 @@ pipeline:
                     shell: Sh
                     command: echo "Welcome to Harness CI"
           platform:
-            os: MacOS
+            os: Linux
             arch: Arm64
           runtime:
-            type: Docker
+            type: Cloud
             spec: {}
         when:
           pipelineStatus: All
